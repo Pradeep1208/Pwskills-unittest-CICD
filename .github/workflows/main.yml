@@ -51,7 +51,7 @@ jobs:
 
       - name: install dependencies
         run: |
-          pip install pytest
+          python -m pip install pytest,unittest
 
       - name: execute the test script
         run: |
